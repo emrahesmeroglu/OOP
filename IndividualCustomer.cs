@@ -6,6 +6,8 @@ namespace OOP
 {
     class IndividualCustomer : Customer
     {
+        public string Name { get; set; }
+        public string LastName { get; set; }
         public string Ssn { get; set; }
         public string NationalId { get; set; }
     }
